@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --darkGrayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
+/* ----- BANNER -----  */
+
+.banner-header {
+  width: 100%;
+  height: 1050px;
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-banner__area {
+  width: 50%;
+  text-align: center;
+}
+
+.text-banner__area h1 {
+  font-size: 42px;
+  color: var(--darkGrayish-blue);
+}
+
+.text-banner__area h2 {
+  font-size: 32px;
+  color: var(--darkGrayish-blue);
+}
+
+.text-banner__area p {
+  font-size: 18px;
+  color: var(--grayish-blue);
+}
+
+.banner-buttons button {
+  border: 0;
+  border-radius: 24px;
+  padding: 12px 32px;
+  margin-right: 12px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 12px;
+  margin-bottom: 72px;
+  cursor: pointer;
+}
+
+.banner-buttons .ios-btn {
+  background-color: var(--strong-cyan);
+  border-bottom: 2px solid hsl(171, 66%, 34%);
+}
+
+.banner-buttons .ios-btn:hover {
+  box-shadow: 2px 4px 8px -4px var(--strong-cyan);
+}
+
+.banner-buttons .mac-btn {
+  background-color: var(--light-blue);
+  border-bottom: 2px solid hsl(233, 100%, 59%);
+}
+
+.banner-buttons .mac-btn:hover {
+  box-shadow: 2px 4px 8px -4px var(--light-blue);
+}
+
+/* ----- MIDDLE BANNER -----  */
+
+.middle-banner {
+  display: flex;
+}
+
+.middle-banner .text-banner__area {
+  text-align: left;
+  width: 60%;
+  margin-left: 200px;
+}
+
+.middle-banner .text-banner__area h2 {
+  font-size: 24px;
+}
+
+.middle-banner img {
+  margin-left: 50px;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+/* ----- BANNER INFO DEVICE -----  */
+
+.banner-info__device {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-info__device img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  margin-top: 124px;
+  margin-bottom: 124px;
+}
+
+/* ----- SECTION SERVICES -----  */
+
+.section-services {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 124px;
+}
+
+.section-card {
+  width: 400px;
+  text-align: center;
+}
+
+.section-card img {
+  width: 64px;
+}
+
+.section-card h1 {
+  color: var(--darkGrayish-blue);
+}
+
+.section-card p {
+  color: var(--grayish-blue);
+}
+
+/* ----- SECTION SPONSORS -----  */
+
+.section-sponsors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 124px;
+}
+
+/* ----- SECTION CLIPBOARD -----  */
+
+.section-clipboard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 124px;
+}
+
+/* ----- FOOTER -----  */
+
+footer {
+  width: 100%;
+  background-color: hsl(201, 11%, 95%);
+  color: var(--grayish-blue);
+}
+
+.footer-content {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-content .footer-logo img {
+  width: 40px;
+}
+
+.footer-socials img {
+  margin-left: 12px;
+}
